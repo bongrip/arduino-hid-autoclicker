@@ -10,8 +10,14 @@
 # ❔ Usage
 
 - Open the Arduino IDE and upload the Sketch file.<br>
-- The Default binding for this autoclicker is double pressing the MOUSE_4 within quick succession<br>
+- The __*default*__ binding for this autoclicker is double pressing the `MOUSE_4` within quick succession<br>
 - Then you will be able to hold your mouse click, and it will simulate clicks!
+
+# ⚙️ Configuration 
+`Anything configurable is within the hidmousereport.ino`<br>
+- Click Interval `(BASE_CLICK_INTERVAL)` change this for the BASE CPS `(BASE_CLICK_INTERVAL = 1000 / <cps-configuration>)`
+- Click variability `(CLICK_INTERVAL_VARIABILITY)` change this for the amount of CPS that the clicker will drop to simulate stamina loss
+- Double click duration `(DOUBLE_CLICK_INTERVAL)` change this for the amount of time you have to double click your activation key to enable the clicker
 
 # 🛡️ How can I spoof this as a REAL mouse?
 
@@ -72,7 +78,7 @@ custom.build.variant=leonardo
 custom.build.extra_flags={build.usb_flags} -DCDC_DISABLED # Remove -DCDC_DISABLED to re-enable the COM port on your board!
 ```
 
-And then enable the board in Ardunio IDE `(Tools -> Board -> Arduino AVR Boards -> <custom board name>)`
+And then enable the board in Ardunio IDE `(Tools -> Board -> Arduino AVR Boards -> <custom board name>)`<br>
 Finally, Upload the sketch and this will flash/apply the custom board
 
 # ❗ I've uploaded a custom board, but lost my COM port!
