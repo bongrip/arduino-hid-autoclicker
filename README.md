@@ -1,5 +1,5 @@
 # arduino-hid-autoclicker
-🖱️ An autoclicker created for Arduino + USB Host Shield.
+🖱️ An autoclicker created for Arduino + USB Host Shield.<br>
 `This project has since been disbanded and will no longer get updates`
 
 # ℹ️ Requirements
