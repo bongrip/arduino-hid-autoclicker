@@ -9,9 +9,9 @@
 
 # ❔ Usage
 
-Open the Arduino IDE and upload the Sketch file.<br>
-The Default binding for this autoclicker is double pressing the MOUSE_4 within quick succession<br>
-Then you will be able to hold your mouse click, and it will simulate clicks!
+- Open the Arduino IDE and upload the Sketch file.<br>
+- The Default binding for this autoclicker is double pressing the MOUSE_4 within quick succession<br>
+- Then you will be able to hold your mouse click, and it will simulate clicks!
 
 # 🛡️ How can I spoof this as a REAL mouse?
 
