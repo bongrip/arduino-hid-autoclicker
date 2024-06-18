@@ -1,18 +1,19 @@
 # arduino-hid-autoclicker
-An autoclicker created for Arduino + USB Host Shield.
+🖱️ An autoclicker created for Arduino + USB Host Shield.
+`This project has since been disbanded and will no longer get updates`
 
-# Requirements
+# ℹ️ Requirements
 
 - Arduino `(For this I used An KEYESTUDIO ARDUINO LEONARDO R3)` [AMAZON USA](https://www.amazon.com/KEYESTUDIO-Leonardo-Development-Board-Arduino/dp/B0786LJQ8K)
 - USB Host Shield `(For this I used An HILETGO USB Host Shield)` [AMAZON USA](https://www.amazon.com/HiLetgo-Shield-Arduino-Support-Android/dp/B01MTU9OLM/)
 
-# Usage
+# ❔ Usage
 
 Open the Arduino IDE and upload the Sketch file.<br>
 The Default binding for this autoclicker is double pressing the MOUSE_4 within quick succession<br>
 Then you will be able to hold your mouse click, and it will simulate clicks!
 
-# How can I spoof this as a REAL mouse?
+# 🛡️ How can I spoof this as a REAL mouse?
 
 To make this look like a real mouse, you can upload a custom boards.txt<br>
 
@@ -71,7 +72,10 @@ custom.build.variant=leonardo
 custom.build.extra_flags={build.usb_flags} -DCDC_DISABLED # Remove -DCDC_DISABLED to re-enable the COM port on your board!
 ```
 
-# I've uploaded a custom board, but lost my COM port!
+And then enable the board in Ardunio IDE `(Tools -> Board -> Arduino AVR Boards -> <custom board name>)`
+Finally, Upload the sketch and this will flash/apply the custom board
+
+# ❗ I've uploaded a custom board, but lost my COM port!
 
 To re-enable your COM port, please follow the steps below:
 
