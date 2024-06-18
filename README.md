@@ -18,6 +18,8 @@ To make this look like a real mouse, you can upload a custom boards.txt<br>
 
 Example `(Logitech Lightspeed Reciever)`
 
+Path to add this board `(<arduino-ide-install-path>\packages\arduino\hardware\avr\*\boards.txt)`
+
 ```
 custom.name=Lightspeed Receiver
 custom.vid.0=0x046D
