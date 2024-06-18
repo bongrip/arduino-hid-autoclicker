@@ -1,6 +1,11 @@
 # arduino-hid-autoclicker
 An autoclicker created for Arduino + USB Host Shield.
 
+# Requirements
+
+- Arduino `(For this I used An KEYESTUDIO ARDUINO LEONARDO R3)` [AMAZON USA](https://www.amazon.com/KEYESTUDIO-Leonardo-Development-Board-Arduino/dp/B0786LJQ8K)
+- USB Host Shield `(For this I used An HILETGO USB Host Shield)` [AMAZON USA](https://www.amazon.com/HiLetgo-Shield-Arduino-Support-Android/dp/B01MTU9OLM/)
+
 # Usage
 
 Open the Arduino IDE and upload the Sketch file.<br>
